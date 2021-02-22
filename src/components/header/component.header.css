@@ -1,0 +1,14 @@
+.headerBody {
+  position: relative;
+  background: #474542;
+}
+
+.headerBody .utf-title {
+  font-size: 35px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff !important;
+}

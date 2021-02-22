@@ -1,0 +1,22 @@
+.itemBody {
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  padding: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.item .one,
+.item .two {
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.item .one {
+  background-color: #3B3937;
+}
+
+.item .two {
+  background-color: #474542;
+}

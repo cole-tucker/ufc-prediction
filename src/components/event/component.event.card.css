@@ -1,0 +1,54 @@
+.card {
+  position: relative;
+  background-color: #000 !important;
+  margin-bottom: 10px;
+  border: 1px solid #5E5E5E !important;
+  overflow: hidden;
+  padding: 0px !important;
+}
+
+.card .title {
+  background-color: #5E5E5E;
+  padding: 5px;
+  margin-top: -1px;
+}
+
+.card .username {
+  height: 65px;
+  color: #64DCD8;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.card .username .left {
+  border-bottom: 5px solid #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card .username .right {
+  border-bottom: 5px solid #757575;
+  margin-left: 5px;
+  padding-right: 15px;
+
+}
+
+.text-center {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.tow {
+  background-color: #3B3937;
+}
+
+.one {
+  background-color: #474542;
+}
+
+.tow .center,
+.one .center {
+  color: #A3ADA7;
+  background-color: #000;
+}

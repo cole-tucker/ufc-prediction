@@ -1,0 +1,59 @@
+.flex-1 {
+  flex: 1;
+  padding: 10px;
+}
+
+.picture {
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+}
+
+.picture .ufc-top-left {
+  position: absolute;
+  top: 0px;
+  background-color: #C22026;
+  color: #fff;
+  padding: 5px 30px;
+  font-weight: bold;
+}
+
+.pageBody {
+  position: relative;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  outline: 0;
+}
+
+.ufc-title {
+  color: #fff;
+  background: #222;
+  font-size: 26px;
+  font-weight: 700;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.ufc-desc {
+  /* background: #474542; */
+  background: #474542;
+  color: #e8e8e8;
+  line-height: 1.78;
+  padding: 0px 30px 10px 30px;
+}
+
+.ufc-news {
+  margin-top: 10px;
+  padding: 0px 30px 10px 30px;
+  color: #e8e8e8;
+  background: #474542;
+}
+
+.ufc-news>div>div {
+  white-space: break-spaces
+}
