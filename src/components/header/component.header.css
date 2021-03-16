@@ -1,14 +1,32 @@
+.container {
+    margin-bottom: 10px;
+}
+
 .headerBody {
-  position: relative;
-  background: #474542;
+  /* position: relative; */
+  background: rgb(240, 240, 240);
 }
 
 .headerBody .utf-title {
   font-size: 35px;
   padding: 20px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 a {
-  color: #fff !important;
+  color: #000 !important;
+}
+
+.sticky-nav {
+    position: absolute;
+    top: 0;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover Link{ color: #fff;  }
+	.navbar{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar{ top:180%;  }
+	.navbar .nav-item:hover{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }

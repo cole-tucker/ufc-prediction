@@ -45,7 +45,7 @@ class Fighters extends React.Component {
     return (
       <div className="pageBody">
         <div className="row">
-          <div className="col-11 font-size-30 font-bold">UFC FIGHTERS</div>
+          <div className="col-11 font-size-30 font-bold header-text">UFC FIGHTERS</div>
         </div>
         <LetterItem onSelect={this.handleSelectItem.bind(this)} />
 

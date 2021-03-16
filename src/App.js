@@ -13,7 +13,7 @@ function App() {
   return (
     <Router history={history}>
       <Header history={history} />
-      <div className="container" style={{ marginTop: '20px' }}>
+      <div className="container" style={{ marginTop: '80px' }}>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/home" exact component={Home} />

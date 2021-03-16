@@ -1,9 +1,14 @@
+.item {
+    color: #000;
+}
+
 .itemBody {
   border: 1px solid #000;
   margin-bottom: 30px;
   padding: 10px;
   overflow: hidden;
   margin-top: 10px;
+  color: #000;
 }
 
 .item .one,
@@ -14,9 +19,11 @@
 }
 
 .item .one {
-  background-color: #3B3937;
+  background-color: rgb(236, 236, 236);
+  color: #000;
 }
 
 .item .two {
-  background-color: #474542;
+  background-color: #dbdbdb;
+  color: #000;
 }

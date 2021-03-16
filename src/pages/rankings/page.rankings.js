@@ -38,7 +38,7 @@ class Rankings extends React.Component {
     return (
       <div className="pageBody">
         <div className="row margin-bottom-10">
-          <div className="col-9 font-size-30 font-bold">UFC Ranking</div>
+          <div className="col-9 font-size-30 font-bold header-text">UFC Ranking</div>
           <div className="col-3">
             <select type="text" className="form-control btn-dark" onChange={this.handleSelectItem.bind(this)}>
               <option className="dark" value="">

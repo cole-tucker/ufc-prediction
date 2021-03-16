@@ -1,6 +1,6 @@
 .pageBody {
-  color: #e8e8e8 !important;
-  background: #474542 !important;
+  color: #fff !important;
+  background: #fff !important;
   padding: 20px;
 }
 
@@ -8,7 +8,7 @@
   width: 100%;
   flex: 1;
   text-align: center;
-  background-color: #1a1a1a;
+  background-color: #fff;
   margin: 5px;
   font-size: 20px;
   margin-bottom: 10px;

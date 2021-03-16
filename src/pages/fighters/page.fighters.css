@@ -1,5 +1,10 @@
+.header-text {
+    color: #000;
+}
+
 .fHeader {
-  background: #1d1d1d;
+  background: #fff;
+  color: #000;
   display: flex;
   height: 40px;
   line-height: 40px;
@@ -14,9 +19,11 @@
 }
 
 .pLetter.one {
-  background-color: #3B3937;
+    background-color: rgb(236, 236, 236);
+    color: #000;
 }
 
 .pLetter.two {
-  background-color: #474542;
+    background-color: #dbdbdb;
+    color: #000;
 }
