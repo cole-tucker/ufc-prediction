@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ufc-prediction/static/css/main.072db87f.chunk.css",
+    "main.js": "/ufc-prediction/static/js/main.8115ef83.chunk.js",
+    "main.js.map": "/ufc-prediction/static/js/main.8115ef83.chunk.js.map",
+    "runtime-main.js": "/ufc-prediction/static/js/runtime-main.caf2bb4d.js",
+    "runtime-main.js.map": "/ufc-prediction/static/js/runtime-main.caf2bb4d.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/ufc-prediction/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.06346f0d.chunk.js": "/ufc-prediction/static/js/2.06346f0d.chunk.js",
+    "static/js/2.06346f0d.chunk.js.map": "/ufc-prediction/static/js/2.06346f0d.chunk.js.map",
+    "static/js/3.8cac4a57.chunk.js": "/ufc-prediction/static/js/3.8cac4a57.chunk.js",
+    "static/js/3.8cac4a57.chunk.js.map": "/ufc-prediction/static/js/3.8cac4a57.chunk.js.map",
+    "index.html": "/ufc-prediction/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/ufc-prediction/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.072db87f.chunk.css.map": "/ufc-prediction/static/css/main.072db87f.chunk.css.map",
+    "static/js/2.06346f0d.chunk.js.LICENSE.txt": "/ufc-prediction/static/js/2.06346f0d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caf2bb4d.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.06346f0d.chunk.js",
+    "static/css/main.072db87f.chunk.css",
+    "static/js/main.8115ef83.chunk.js"
+  ]
+}
