@@ -16,7 +16,7 @@ class Events extends React.Component {
 
     this.parseDate();
     this.parseCurrentDate(this.state.currentDate);
-    this.getDateItems();
+    // this.getDateItems();
   }
 
   componentDidMount() {
@@ -43,12 +43,12 @@ class Events extends React.Component {
     this.setState({ ts: new Date() });
   }
 
-  getDateItems() {
-    const { currentDate, eventMap } = this.state;
-    const { index } = eventMap[currentDate];
-    this.state.currentIndex = index;
-    this.update();
-  }
+//   getDateItems() {
+//     const { currentDate, eventMap } = this.state;
+//     const { index } = eventMap[currentDate];
+//     this.state.currentIndex = index;
+//     this.update();
+//   }
 
   handleUpdateDate(index) {
     if (!index) {
