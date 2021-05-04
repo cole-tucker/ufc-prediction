@@ -63,8 +63,7 @@ Mixed martial arts has been around since the early 1900s but it wasn’t until t
     return (
       <div className="pageBody">
         {/* <div className="picture image">
-          <img src={image} alt={image} />
-          <div className="ufc-top-left">UFC FEATURE</div>
+          <iframe src="https://seamush.shinyapps.io/ufc_prediction/"></iframe>
         </div>
         <div className="ufc-title">{this.state.PKInfo.title}</div>
         <div className="ufc-desc">{this.state.PKInfo.desc}</div> */}

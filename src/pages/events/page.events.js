@@ -81,6 +81,9 @@ class Events extends React.Component {
           <div className=" margin-left-10 margin-bottom-10 font-size-30 font-bold">UFC Events & Fight Cards</div>
         </div>
         <div className="row">
+            <iframe height="550px" width="100%" src="https://seamush.shinyapps.io/ufc_prediction/"></iframe>
+        </div>
+        {/* <div className="row">
           <div className="btns">
             {eventDate && currentIndex && currentIndex - 1 >= 0 && (
               <div className="btn btn-dark eBtn" onClick={() => this.handleUpdateDate(-1)}>
@@ -100,9 +103,8 @@ class Events extends React.Component {
               </div>
             )}
           </div>
-          {/* </div> */}
-        </div>
-        <div className={'row currentDate'}>
+        </div> */}
+        {/* <div className={'row currentDate'}>
           <div className="dateText">{new Date(eventDate[currentIndex].event_date).toDateString()}</div>
         </div>
         <div className="row">
@@ -113,7 +115,7 @@ class Events extends React.Component {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     );
   }
